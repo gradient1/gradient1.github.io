@@ -5,7 +5,7 @@
      
     grid-gap: 10px;
     grid-template-columns: 200px 400px;
-    grid-template-rows: 100px 200px 430px;   
+    grid-template-rows: 100px 225px 430px;   
     grid-template-areas: 
         "header header"
         "photo information"
@@ -36,12 +36,16 @@ header {
 
     grid-area: photo;
     
-    margin; 10px;
-    background: #ffffff url("https://srv3.imgonline.com.ua/result_img/imgonline-com-ua-Resize-7utVGrwvmiLn4m.jpg") no-repeat center;
+}
+.photo>.circle{
+    background: #ffffff url("myphoto.jpg") no-repeat center;
+    width: 200px;
+    height: 200px;
     
     color: white;
     border-radius: 50%;
     text-align: center;
+    margin: 12px 0px;
     
 
     
